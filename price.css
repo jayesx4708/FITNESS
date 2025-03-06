@@ -1,0 +1,39 @@
+h1{
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+.pricediv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+}
+.pricediv div{
+    width: 350px;
+    height: 550px;
+    gap: 20px;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pricediv .priceimg1{
+    background-image: url(CSS/price1.png);
+}
+.priceimg2{
+    background-image: url(CSS/Price2.png);
+}
+.priceimg3{
+    background-image: url(CSS/price3.png);
+}
+.priceimg4{
+    background-image: url(CSS/price4.png);
+}
+.priceimg5{
+    background-image: url(CSS/price5.png);
+}
+
